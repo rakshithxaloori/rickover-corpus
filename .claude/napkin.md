@@ -37,3 +37,8 @@
 - `posts/nuclear-power-and-bremerton.html` contains unusual OCR body text (editorial "Wait, check..." notes) instead of normal transcript paragraphs; scraper should preserve source text but flag for downstream QA.
 ## Patterns That Work
 - A single local script (`scripts/download_rickover_blog.py`) that extracts index metadata and post OCR text can regenerate `data/rickover_speeches.jsonl` plus Markdown corpus deterministically.
+## User Preferences
+- User wants project documentation to explicitly note that the repository work was done through Codex under their direction.
+
+## Patterns That Work
+- README should include: what was done, exact artifact locations, regeneration command, and known source caveats.
